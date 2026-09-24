@@ -146,9 +146,9 @@ def main(argv: list[str] | None = None) -> int:
     ens = None
     if args.ens:
         try:
-            from enslookup import Ens  # optional: github.com/alinaschanz/ens-lookup
+            from enslookup import Ens  # optional: github.com/AlinaSchan/ens-lookup
         except ImportError:
-            print("error: --ens needs the enslookup package (pip install git+https://github.com/alinaschanz/ens-lookup)", file=sys.stderr)
+            print("error: --ens needs the enslookup package (pip install git+https://github.com/AlinaSchan/ens-lookup)", file=sys.stderr)
             return 2
         ens = Ens()
     who = Labeler(load(args.labels), ens)

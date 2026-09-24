@@ -1,10 +1,10 @@
 # bigmoves
 
-[![ci](https://github.com/alinaschanz/bigmoves/actions/workflows/ci.yml/badge.svg)](https://github.com/alinaschanz/bigmoves/actions/workflows/ci.yml)
+[![ci](https://github.com/AlinaSchan/bigmoves/actions/workflows/ci.yml/badge.svg)](https://github.com/AlinaSchan/bigmoves/actions/workflows/ci.yml)
 ![python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab)
 ![license mit](https://img.shields.io/badge/license-MIT-2b7a74)
-[![release](https://img.shields.io/github/v/release/alinaschanz/bigmoves?color=2b7a74)](https://github.com/alinaschanz/bigmoves/releases)
-[![openssf scorecard](https://api.scorecard.dev/projects/github.com/alinaschanz/bigmoves/badge)](https://scorecard.dev/viewer/?uri=github.com/alinaschanz/bigmoves)
+[![release](https://img.shields.io/github/v/release/AlinaSchan/bigmoves?color=2b7a74)](https://github.com/AlinaSchan/bigmoves/releases)
+[![openssf scorecard](https://api.scorecard.dev/projects/github.com/AlinaSchan/bigmoves/badge)](https://scorecard.dev/viewer/?uri=github.com/AlinaSchan/bigmoves)
 
 large erc-20 and eth transfers on ethereum mainnet, from a public rpc, in your terminal.
 no keys, nothing to install.
@@ -41,8 +41,8 @@ labels and the etherscan link tell the rest.
 ## install
 
 ```
-pipx install git+https://github.com/alinaschanz/bigmoves
-pipx install "bigmoves[ens] @ git+https://github.com/alinaschanz/bigmoves"   # with --ens support
+pipx install git+https://github.com/AlinaSchan/bigmoves
+pipx install "bigmoves[ens] @ git+https://github.com/AlinaSchan/bigmoves"   # with --ens support
 ```
 
 or clone it and run `python -m bigmoves` from the folder. python 3.10 or newer, no dependencies.
@@ -97,9 +97,9 @@ short (`0x1234..abcd`); pull requests with sourced labels are welcome.
 
 ## see also
 
-- [ens-lookup](https://github.com/alinaschanz/ens-lookup): the names behind the addresses
-- [stablepeg](https://github.com/alinaschanz/stablepeg): whether the stablecoins moving here are still a dollar
-- [gasweek](https://github.com/alinaschanz/gasweek), [onchain-notes](https://github.com/alinaschanz/onchain-notes)
+- [ens-lookup](https://github.com/AlinaSchan/ens-lookup): the names behind the addresses
+- [stablepeg](https://github.com/AlinaSchan/stablepeg): whether the stablecoins moving here are still a dollar
+- [gasweek](https://github.com/AlinaSchan/gasweek), [onchain-notes](https://github.com/AlinaSchan/onchain-notes)
 - the notes: [alinaschanz.life](https://alinaschanz.life), the short version on [x](https://x.com/alinaschanz)
 
 ## verify a release
@@ -109,7 +109,7 @@ opentimestamps proof of that file, and a build provenance attestation made in gi
 flow. with the files downloaded into one folder:
 
     sha256sum -c SHA256SUMS
-    gh attestation verify ./*.whl --owner alinaschanz
+    gh attestation verify ./*.whl --owner AlinaSchan
     ots verify SHA256SUMS.ots
 
 the attestation names the commit and the workflow run that produced the file; the timestamp proves

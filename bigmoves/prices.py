@@ -6,7 +6,7 @@ import urllib.request
 
 from .tokens import Token
 
-USER_AGENT = "bigmoves/0.1 (+https://github.com/alinaschanz/bigmoves)"
+USER_AGENT = "bigmoves/0.1 (+https://github.com/AlinaSchan/bigmoves)"
 
 
 def fetch_prices(tokens: list[Token], timeout: float = 15.0) -> dict[str, float]:
